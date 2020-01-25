@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "ADHD App",
+	"description": "Simple App to help people with ADHD",
+	"version": "1.0",
+	"icons": {
+		"128": "test_img.png"
+	},
+	"start_url": "./index.html",
+	"browser_action": {
+		"default_icon": "test_img.png",
+		"default_popup": "index.html"
+	}
+}
