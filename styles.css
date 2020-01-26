@@ -3,10 +3,18 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+button{
+    font-family: inherit;
+
+}
+h1{
+    text-shadow: 4px 2px 2px gray;
+}
 .wrapper{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-auto-rows: 100%;
     text-align: center;
     align-items: center;
@@ -17,39 +25,46 @@ html{
 .question{
     font-size: 30px;
 }
+
 ul{
     display: inline;
     list-style-type: none;
 }
 
+#loading-bar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1;
+
+}
 #left-container{
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 1;
     /*background-color:green;*/
 }
 
+#myVideo{
+    border: 5px #ffd46e solid;
+    box-shadow: 5px 5px 5px gray;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+}
+
 .middle-container{
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 2;
     /*background-color: blue;*/
 }
 
 #right-container{
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 3;
     /*background-color: red;*/
 }
 
-#animate {
-    width: 200px;
-}
-
-#timer{
-    font-size:60px;
-    position: absolute;
-    left: 30px;
-    top: 50px;
-}
