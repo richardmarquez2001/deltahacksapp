@@ -21,6 +21,11 @@ function myMove() {
     }
 }
 
+//function handleClick() {
+   // window.open("file:///C:/Users/Ameer/Documents/Github/deltahacksapp/Delta.html", "_blank");
+   // alert("yeet");
+ // };
+
 function timerCnt(){
     let count = 0;
     var x = setInterval(function(){
@@ -32,6 +37,8 @@ function timerCnt(){
         count += 1;
     },1000);
 }
+
+
 
 myMove();
 timerCnt();

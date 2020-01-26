@@ -7,7 +7,6 @@
 		"128": "test_img.png"
 	},
 
-
 	
 	"browser_action": {
 		"default_icon": "test_img.png",
