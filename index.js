@@ -6,7 +6,7 @@ let questions = ["What is 3/5 + 2/6?", "What is 3/2 * 4/2?", "Divide 6 by 3"];
 let q = 0;
 
 function timerCnt(){
-    let count = 0;
+    let count = (min * 60) + seconds;
     let x = setInterval(function(){
         minNum = Math.floor(count / 60);
         secondNum = count - (minNum * 60);
@@ -16,12 +16,12 @@ function timerCnt(){
             document.getElementById("timer").innerHTML= minNum.toString() + "m " + secondNum.toString() + "s";
         }
 
-        if(count >= ((min * 60) + seconds)) {
+        if(count <= 0) {
             clearInterval(x);
             document.getElementById("timer").innerHTML = "EXPIRED";
             $("html").load("break.html");
         }
-        count += 1;
+        count -= 1;
     },1000);
 }
 
@@ -44,7 +44,7 @@ $(".wrapper")
 
     .css("display", "none")
 
-    .fadeIn(3000 , function(){
+    .fadeIn(6000 , function(){
         $(this).css("display","normal");
     });
 
