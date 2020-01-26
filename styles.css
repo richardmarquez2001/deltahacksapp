@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.question{
+    font-size: 30px;
+}
+ul{
+    display: inline;
+    list-style-type: none;
+}
+
+#left-container{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    /*background-color:green;*/
+}
+
+.middle-container{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    /*background-color: blue;*/
+}
+
+#right-container{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    /*background-color: red;*/
+}
+
+#animate {
+    width: 200px;
+}
+
+#timer{
+    font-size:60px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
