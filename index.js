@@ -44,8 +44,24 @@ $(".wrapper")
 
     .css("display", "none")
 
-    .fadeIn(3000 , function(){
-        $(this).css("display","normal");
-    });
+//function handleClick() {
+   // window.open("file:///C:/Users/Ameer/Documents/Github/deltahacksapp/Delta.html", "_blank");
+   // alert("yeet");
+ // };
 
+function timerCnt(){
+    let count = 0;
+    var x = setInterval(function(){
+        document.getElementById("timer").innerHTML= count.toString() + "s";
+        if(count >= 10) {
+            clearinterval(x);
+            document.getElementById("timer").innerHTML = "EXPIRED";
+        }
+        count += 1;
+    },1000);
+}
+
+
+
+myMove();
 timerCnt();
