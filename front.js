@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,27 @@ function App() {
           Learn React
         </a>
       </header>
+     )
+
+      ActionLink()
+      });
+     
     </div>
-  );
+    
+  
+    );
 }
 
+function ActionLink() {
+    function handleClick(e) {
+      e.preventDefault();
+      console.log('The link was clicked.');
+    }
+  
+    return (
+      <a href="#" onClick={handleClick}>
+        Click me
+      </a>
+    );
+  }
 export default App;
