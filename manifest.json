@@ -7,9 +7,15 @@
 		"128": "test_img.png"
 	},
 
+	"background": {
+		"scripts": ["index.js"],
+		"persistent": false
+	  },
 	
 	"browser_action": {
 		"default_icon": "test_img.png",
 		"default_popup": "index.html"
 	}
+
+	
 }

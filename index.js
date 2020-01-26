@@ -5,6 +5,11 @@ let secondNum = 0;
 let questions = ["What is 3/5 + 2/6?", "What is 3/2 * 4/2?", "Divide 6 by 3"];
 let q = 0;
 
+
+function handleClick() {
+    $("html").load("Delta.html");
+  }
+
 function timerCnt(){
     let count = (min * 60) + seconds;
     let x = setInterval(function(){
