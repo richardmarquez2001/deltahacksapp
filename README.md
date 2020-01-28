@@ -1,6 +1,8 @@
 # Focus Pocus (Delta Hacks 6 Project)
 A web browser extension that plays to the strengths of the millions of students who have ADHD to help them study better.
 
+![Screenshot of Focus Pocus Page](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/922/583/datas/gallery.jpg)
+
 
 ## Inspiration
 Coming into DeltaHacks, we wanted to build something that would improve the delivery of education to people who require different learning strategies. We decided to focus on students with ADHD. People with ADHD are able to focus, but only for a short period of time before they get distracted. Our extension puts them into a position to best use their specific strengths.
