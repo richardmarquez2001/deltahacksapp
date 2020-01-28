@@ -1,6 +1,6 @@
 chrome.app.runtime.onLaunched.addListener(function() {
 
-   chrome.app.window.create('index.html', function(){
+   chrome.app.window.create('index1.html', function(){
 
       console.log('The link was clicked.');
       /*render() {
@@ -11,7 +11,7 @@ chrome.app.runtime.onLaunched.addListener(function() {
        </button>
              <script>
                function NewTab() {
-                 window.open("file:///C:/Users/Ameer/Documents/Github/deltahacksapp/Delta.html", "_blank")
+                 window.open("file:///C:/Users/Ameer/Documents/Github/deltahacksapp/index.html", "_blank")
                }
              </script>
            </body>

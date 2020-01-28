@@ -44,7 +44,7 @@ $(".wrapper")
 
     .css("display", "none")
 
-    .fadeIn(6000 , function(){
+    .fadeIn(6000, function(){
         $(this).css("display","normal");
     });
 
