@@ -1,6 +1,6 @@
 chrome.app.runtime.onLaunched.addListener(function() {
 
-   chrome.app.window.create('index1.html', function(){
+   chrome.app.window.create('Delta.html', function(){
 
       console.log('The link was clicked.');
       /*render() {
